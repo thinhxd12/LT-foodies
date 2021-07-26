@@ -1,0 +1,12 @@
+.banner {
+  height: 625px;
+}
+
+.banner__info {
+  h3 {
+    @include styeText(54px, 600, 64px, $heading-color);
+  }
+  p {
+    margin-top: 24px;
+  }
+}

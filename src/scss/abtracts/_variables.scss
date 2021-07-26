@@ -1,0 +1,48 @@
+$theme-color: #e40000;
+$primary-color: #f9bd29;
+$primary-light: #fcf1e7;
+$primary-dark: #ffc945;
+$secondary-color: #0abf53;
+$font-color: #6b6768;
+$bg-color: #fff;
+$heading-color: #060606;
+$footer-color: #161623;
+$border-radius: 30px;
+$border-radius-full: 15px;
+$border-color: transparent;
+$border-color-light: #ddd;
+$iframe-filter: grayscale(0%);
+$bg-grey: #f4f4f4;
+$bg-light: #f4fdf8;
+$btn-bg: #e2e8f0;
+$header-bg-color: rgba(243, 243, 243, 0.14);
+$header-border-color: rgba(255, 255, 255, 0.39);
+
+// dark-theme
+
+$dark-theme-color: #e40000;
+$dark-primary-color: #f9bd29;
+$dark-primary-light: #ffc945;
+$dark-secondary-color: #0abf53;
+$dark-primary-dark: #00070c;
+$dark-font-color: #b7b7b7;
+$dark-bg-color: #131617;
+$dark-heading-color: #fdfffc;
+$dark-footer-color: #161623;
+$dark-border-color: rgba(255, 255, 255, 0.2);
+$dark-border-color-light: rgba(255, 255, 255, 0.2);
+$dark-iframe-filter: grayscale(100%);
+$dark-bg-grey: #0b0d0e;
+$dark-bg-light: #111;
+$dark-btn-bg: #2a2a2a;
+$dark-header-bg-color: transparent;
+$dark-header-border-color: transparent;
+
+@mixin styeText($fsize, $fweight, $height, $color) {
+  font-size: $fsize;
+  font-weight: $fweight;
+  line-height: $height;
+  color: $color;
+  padding: 0;
+  margin: 0;
+}

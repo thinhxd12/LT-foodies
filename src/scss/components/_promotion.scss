@@ -1,0 +1,28 @@
+.promotion__info {
+  h5 {
+    @include styeText(16px, 400, 26px, $heading-color);
+  }
+  h3 {
+    font-size: 35px;
+    margin: 6px 0 20px;
+  }
+}
+
+.promotion__apps {
+  a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    &:hover {
+      background-color: $secondary-color;
+    }
+    i {
+      line-height: 34px;
+    }
+  }
+}

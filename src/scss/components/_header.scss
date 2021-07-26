@@ -1,0 +1,62 @@
+.header {
+  border-bottom: 1px solid $header-border-color;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease 0s;
+}
+
+.navbar-brand {
+  span {
+    font-size: 32px;
+    color: $secondary-color;
+  }
+  @include styeText(36px, 400, 28px, $heading-color);
+  &:hover {
+    color: $secondary-color;
+    transition: 0.5s all ease;
+  }
+}
+
+.nav-item {
+  a {
+    @include styeText(16px, 400, 24px, $heading-color);
+    padding: 10px 0;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.nav-item.active {
+  a {
+    color: $secondary-color;
+    letter-spacing: .5px;
+  }
+}
+
+.btn__theme {
+  text-align: center;
+  i {
+    font-size: 22px;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    transform: rotate(-20deg);
+    color: $heading-color;
+    transition: 0.5s all ease;
+    &:hover {
+      color: $secondary-color;
+      transition: 0.5s all ease;
+    }
+  }
+}
+
+
+.header__fixed{
+  background-color: $bg-color;
+  height: 80px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}

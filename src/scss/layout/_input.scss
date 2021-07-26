@@ -1,0 +1,29 @@
+.form__input {
+  p {
+    @include styeText(16px, 600, 26px, $heading-color);
+    margin-bottom: 10px;
+  }
+  input {
+    background: #fff;
+    border: 1px solid $border-color-light;
+    border-right: none;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 70%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    &:focus {
+      outline: none;
+    }
+  }
+  a {
+    margin: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 12px;
+    border: 1px solid $secondary-color;
+    &:hover {
+      transform: none;
+    }
+  }
+}

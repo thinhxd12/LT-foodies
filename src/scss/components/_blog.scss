@@ -1,0 +1,43 @@
+.blog__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid $border-color-light;
+  padding: 1rem;
+  border-radius: 15px;
+  h5 {
+    @include styeText(13px, bold, 20px, $secondary-color);
+    display: inline-block;
+    background: rgba(10, 191, 83, 0.08);
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+  img {
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .txt__link__secondary {
+    margin-top: 15px;
+  }
+  span {
+    margin-top: 15px;
+    i {
+      font-size: 16px;
+      color: #fff;
+      background-color: $secondary-color;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      text-align: center;
+    }
+    a {
+      @include styeText(15px, 400, 22.5px, $font-color);
+      margin-left: 5px;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

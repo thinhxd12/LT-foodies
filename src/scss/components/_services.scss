@@ -1,0 +1,61 @@
+.services {
+  .services__text {
+    h3 {
+      @include styeText(40px, 100, 45px, $heading-color);
+      text-align: center;
+    }
+    padding: 24px;
+  }
+}
+
+.service__team {
+  position: relative;
+  .service__team__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    background: #04040491;
+    text-align: center;
+    display: block;
+    width: 100%;
+    p {
+      @include styeText(15px, 400, 28px, #fff);
+      text-transform: uppercase;
+    }
+  }
+}
+
+.service__item {
+  margin-bottom: 30px;
+  i {
+    font-size: 22px;
+    line-height: 65px;
+    color: $secondary-color;
+    transition: all 0.3s ease-in;
+    background: rgba(10, 191, 83, 0.1);
+    display: block;
+    text-align: center;
+    min-width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+  .service__item__info {
+    padding-left: 15px;
+    a {
+      @include styeText(15px, 600, 22.5px, $heading-color);
+      display: inline-block;
+      text-transform: uppercase;
+      margin-top: 20px;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+.service__item:hover {
+  i {
+    color: #fff;
+  }
+}

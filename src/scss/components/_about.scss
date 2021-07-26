@@ -1,0 +1,13 @@
+.content{
+    .content__info{
+        h3{
+            @include styeText(35px,400,45px,$heading-color);
+            span{
+                @include styeText(35px,700,45px,$heading-color);
+            }
+        }
+        p{
+            margin-top: 24px;
+        }
+    }
+}

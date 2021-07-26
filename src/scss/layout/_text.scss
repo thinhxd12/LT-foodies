@@ -1,0 +1,18 @@
+.txt__header {
+  @include styeText(40px, 600, 55px, $heading-color);
+  text-transform: uppercase;
+}
+
+.txt__link__primary {
+  @include styeText(20px, 600, 28px, #fff);
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.txt__link__secondary {
+  @include styeText(20px, 600, 28px, $heading-color);
+  &:hover {
+    color: $secondary-color;
+  }
+}

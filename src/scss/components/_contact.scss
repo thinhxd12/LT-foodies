@@ -1,0 +1,34 @@
+.contact__banner__phone {
+  a.btn__primary {
+    margin-top: 0;
+  }
+  p {
+    display: inline;
+    margin: 0 20px;
+  }
+  span {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+}
+
+.contact__banner {
+  background-color: $bg-light;
+}
+
+.contact__item {
+  text-align: center;
+  box-shadow: -1px 7px 13px 0px rgba(10, 10, 10, 0.08);
+  padding: 30px;
+  i {
+    display: block;
+    font-size: 35px;
+    color: $primary-color;
+  }
+  a {
+    color: $heading-color;
+    display: inline-block;
+    font-size: 22px;
+    margin: 30px 0 15px;
+  }
+}

@@ -1,0 +1,30 @@
+.video__content {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  border-radius: 15px;
+  i {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    color: #fff;
+    display: inline-block;
+    background: rgba(10, 191, 83, 0.54);
+    border: 4px solid #fff;
+    text-align: center;
+    line-height: 72px;
+    padding-left: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+.video {
+  background-color: $bg-light;
+}
+

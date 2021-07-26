@@ -1,0 +1,105 @@
+.footer {
+  p,
+  a {
+    font-size: 14px;
+  }
+  .navbar-brand {
+    font-size: 36px;
+  }
+  h5 {
+    @include styeText(18px, 600, 25px, $heading-color);
+    margin-bottom: 30px;
+  }
+}
+
+.footer__catergories {
+  a {
+    @include styeText(15px, 400, 24px, $font-color);
+    display: block;
+    margin: 10px 0;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+  i {
+    font-size: 14px;
+    color: $secondary-color;
+  }
+}
+
+.form__input__footer {
+  padding: 32px;
+  box-shadow: -1px 7px 13px 0px rgba(10, 10, 10, 0.08);
+  h5 {
+    @include styeText(16px, 600, 25px, $heading-color);
+    margin-bottom: 30px;
+  }
+  input {
+    background-color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    margin: 1px 0;
+    color: $font-color;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    border: 1px solid $border-color-light;
+    width: 70%;
+    &:focus {
+      outline: none;
+    }
+  }
+  a {
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 0 30px 30px 0;
+    line-height: 16px;
+    font-size: 16px;
+    width: 30%;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  p {
+    @include styeText(14px, 400, 24px, $font-color);
+    margin-top: 20px;
+  }
+}
+
+.footer__copyright {
+  p {
+    font-size: 15px;
+    a {
+      font-size: 15px;
+      color: $secondary-color;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.footer__social {
+  a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    background: rgba(10, 191, 83, 0.08);
+    &:hover {
+      i{
+        color: $primary-color;
+      }
+      background: rgba(255, 201, 69, 0.19);
+      box-shadow: 0px 4px 7px 0px rgba(10, 10, 10, 0.24);
+    }
+    i {
+      font-size: 15px;
+      color: $secondary-color;
+      line-height: 35px;
+    }
+  }
+}

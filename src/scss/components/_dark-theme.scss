@@ -1,0 +1,51 @@
+.dark-mode {
+  background-color: $dark-bg-color;
+  color: $dark-font-color;
+  p {
+    color: $dark-font-color;
+  }
+
+  .navbar-brand,
+  .nav-item a,
+  .btn__header,
+  .banner__info h3,
+  .content .content__info h3,
+  .content .content__info h3 span,
+  .services .services__text h3,
+  .service__item .service__item__info a,
+  .txt__header,
+  .txt__link__secondary,
+  .promotion__info h5,
+  .form__input p,
+  .footer h5,
+  .btn__header i {
+    color: $dark-heading-color;
+  }
+
+  .header {
+    border: none;
+  }
+
+  .header__fixed {
+    background-color: $dark-bg-color;
+  }
+
+  .blog__item span i {
+    color: $dark-bg-light;
+  }
+
+  .video,
+  .contact__banner {
+    background-color: $dark-bg-light;
+  }
+  .blog__item {
+    border: 1px solid $dark-border-color-light;
+  }
+
+  .contact__item a {
+    color: $dark-heading-color;
+    &:hover {
+      color: $dark-primary-color;
+    }
+  }
+}

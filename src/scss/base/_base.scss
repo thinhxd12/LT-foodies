@@ -1,0 +1,26 @@
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  a:hover {
+    text-decoration: none;
+    transition: 0.5s all ease;
+  }
+  a {
+    transition: 0.5s all ease;
+  }
+
+  p {
+    @include styeText(16px, 400, 28px, $font-color);
+    letter-spacing: 0.5px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
